@@ -1,0 +1,22 @@
+{
+  "name": "ts-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-ts": "tsc",
+    "dev": "nodemon build/index.js"
+  },
+  "author": "VinliCheung",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.16.4",
+    "@types/config": "0.0.32",
+    "@types/express": "^4.0.36",
+    "@types/joi": "^10.4.0",
+    "config": "^1.26.1",
+    "express": "^4.15.3",
+    "joi": "^10.6.0"
+  }
+}
